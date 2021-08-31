@@ -37,6 +37,23 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = rn_ts_blank/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = rn_ts_blank/main.m; sourceTree = "<group>"; };
 		1D0AE47A65C8663E3B452821 /* Pods-rn_ts_blank-rn_ts_blankTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rn_ts_blank-rn_ts_blankTests.release.xcconfig"; path = "Target Support Files/Pods-rn_ts_blank-rn_ts_blankTests/Pods-rn_ts_blank-rn_ts_blankTests.release.xcconfig"; sourceTree = "<group>"; };
+		5438399226DE03BC00643AA7 /* rn_ts_blank.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = rn_ts_blank.entitlements; path = rn_ts_blank/rn_ts_blank.entitlements; sourceTree = "<group>"; };
+		54EF57A526DE4D4A002BB83F /* Fontisto.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fontisto.ttf; sourceTree = "<group>"; };
+		54EF57A626DE4D4A002BB83F /* Octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Octicons.ttf; sourceTree = "<group>"; };
+		54EF57A726DE4D4A002BB83F /* Feather.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Feather.ttf; sourceTree = "<group>"; };
+		54EF57A826DE4D4A002BB83F /* Entypo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Entypo.ttf; sourceTree = "<group>"; };
+		54EF57A926DE4D4A002BB83F /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Brands.ttf; sourceTree = "<group>"; };
+		54EF57AA26DE4D4A002BB83F /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialCommunityIcons.ttf; sourceTree = "<group>"; };
+		54EF57AB26DE4D4A002BB83F /* AntDesign.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AntDesign.ttf; sourceTree = "<group>"; };
+		54EF57AC26DE4D4A002BB83F /* Foundation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Foundation.ttf; sourceTree = "<group>"; };
+		54EF57AD26DE4D4A002BB83F /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ionicons.ttf; sourceTree = "<group>"; };
+		54EF57AE26DE4D4A002BB83F /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Solid.ttf; sourceTree = "<group>"; };
+		54EF57AF26DE4D4A002BB83F /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Regular.ttf; sourceTree = "<group>"; };
+		54EF57B026DE4D4A002BB83F /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+		54EF57B126DE4D4A002BB83F /* Zocial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Zocial.ttf; sourceTree = "<group>"; };
+		54EF57B226DE4D4A002BB83F /* EvilIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = EvilIcons.ttf; sourceTree = "<group>"; };
+		54EF57B326DE4D4A002BB83F /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SimpleLineIcons.ttf; sourceTree = "<group>"; };
+		54EF57B426DE4D4A002BB83F /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialIcons.ttf; sourceTree = "<group>"; };
 		6423831EA8574132BED9D8CC /* libPods-rn_ts_blank.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rn_ts_blank.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C97AB639B58BBB4B15BBE30 /* Pods-rn_ts_blank-rn_ts_blankTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rn_ts_blank-rn_ts_blankTests.debug.xcconfig"; path = "Target Support Files/Pods-rn_ts_blank-rn_ts_blankTests/Pods-rn_ts_blank-rn_ts_blankTests.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = rn_ts_blank/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -86,6 +103,8 @@
 		13B07FAE1A68108700A75B9A /* rn_ts_blank */ = {
 			isa = PBXGroup;
 			children = (
+				54EF57A426DE4D4A002BB83F /* Fonts */,
+				5438399226DE03BC00643AA7 /* rn_ts_blank.entitlements */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -104,6 +123,30 @@
 				ABFE59519B596E51CEFDCCC0 /* libPods-rn_ts_blank-rn_ts_blankTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		54EF57A426DE4D4A002BB83F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				54EF57A526DE4D4A002BB83F /* Fontisto.ttf */,
+				54EF57A626DE4D4A002BB83F /* Octicons.ttf */,
+				54EF57A726DE4D4A002BB83F /* Feather.ttf */,
+				54EF57A826DE4D4A002BB83F /* Entypo.ttf */,
+				54EF57A926DE4D4A002BB83F /* FontAwesome5_Brands.ttf */,
+				54EF57AA26DE4D4A002BB83F /* MaterialCommunityIcons.ttf */,
+				54EF57AB26DE4D4A002BB83F /* AntDesign.ttf */,
+				54EF57AC26DE4D4A002BB83F /* Foundation.ttf */,
+				54EF57AD26DE4D4A002BB83F /* Ionicons.ttf */,
+				54EF57AE26DE4D4A002BB83F /* FontAwesome5_Solid.ttf */,
+				54EF57AF26DE4D4A002BB83F /* FontAwesome5_Regular.ttf */,
+				54EF57B026DE4D4A002BB83F /* FontAwesome.ttf */,
+				54EF57B126DE4D4A002BB83F /* Zocial.ttf */,
+				54EF57B226DE4D4A002BB83F /* EvilIcons.ttf */,
+				54EF57B326DE4D4A002BB83F /* SimpleLineIcons.ttf */,
+				54EF57B426DE4D4A002BB83F /* MaterialIcons.ttf */,
+			);
+			name = Fonts;
+			path = ../../Fonts;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -145,7 +188,6 @@
 				6C97AB639B58BBB4B15BBE30 /* Pods-rn_ts_blank-rn_ts_blankTests.debug.xcconfig */,
 				1D0AE47A65C8663E3B452821 /* Pods-rn_ts_blank-rn_ts_blankTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -201,7 +243,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1210;
+				LastUpgradeCheck = 1250;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
@@ -431,13 +473,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6C97AB639B58BBB4B15BBE30 /* Pods-rn_ts_blank-rn_ts_blankTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = rn_ts_blankTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -458,10 +501,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1D0AE47A65C8663E3B452821 /* Pods-rn_ts_blank-rn_ts_blankTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = rn_ts_blankTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -484,7 +528,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = rn_ts_blank/rn_ts_blank.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 64HC6HGXN4;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = rn_ts_blank/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -510,7 +556,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = rn_ts_blank/rn_ts_blank.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 64HC6HGXN4;
 				INFOPLIST_FILE = rn_ts_blank/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -577,7 +625,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -635,7 +683,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
